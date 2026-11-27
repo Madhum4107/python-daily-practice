@@ -1,4 +1,6 @@
 name: Python Practice CI
+permissions:
+  contents: read
 on: [push, pull_request, workflow_dispatch]
 jobs:
   test:
