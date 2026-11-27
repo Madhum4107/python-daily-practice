@@ -1,5 +1,6 @@
-meghna=input()
-if("meghna==died"):
-    print("surya mets priya")
+"""Branch using a value entered by the user."""
+status = input("Enter status (finished/other): ").strip().lower()
+if status == "finished":
+    print("Task completed.")
 else:
-    print("surya wedsw meghna")
+    print("Task still in progress.")
