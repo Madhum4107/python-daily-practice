@@ -9,7 +9,7 @@ A beginner repository documenting variables, data types, arithmetic, conditional
 | Topic | Examples |
 |---|---|
 | Variables and data types | `variable.py`, `datatype.py` |
-| Arithmetic | `operator.py`, `question.3.py` |
+| Arithmetic | `operators.py`, `question.3.py` |
 | Conditionals | `if else.py`, `ifelse.py`, comparison, pass/fail, status examples |
 | Input/output | `question.1.py`–`question.4.py` |
 
@@ -28,7 +28,7 @@ Most examples use console input. Read the prompt, enter a value, and follow the 
 ## Validation
 
 ```bash
-python -m compileall -q .
+python -m compileall -q .\n\nAvoid naming files after Python standard-library modules (for example `operator.py`) because they can shadow imports and break the interpreter.
 ```
 
 The CI workflow checks Python syntax on pushes and pull requests. The exercises are learning snippets and have not all been converted into reusable modules yet.
