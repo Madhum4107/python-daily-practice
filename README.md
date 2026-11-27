@@ -6,25 +6,28 @@ A beginner repository documenting variables, data types, arithmetic, conditional
 
 ## Topics
 
-| Topic | Examples |
+| Topic | Files |
 |---|---|
-| Variables and data types | `variable.py`, `datatype.py` |
-| Arithmetic | `operators.py`, `question.3.py` |
-| Conditionals | `if else.py`, `ifelse.py`, comparison, pass/fail, status examples |
-| Input/output | `question.1.py`–`question.4.py` |
+| Variables & data types | `variable.py`, `datatype.py` |
+| Arithmetic | `operators.py`, `product_sum_ratio.py` |
+| If/else basics | `if_else_basic.py`, `if_else.py` |
+| Comparisons & validation | `compare_numbers.py`, `marks_pass_fail.py` |
+| String conditions | `status_example.py`, `rcb_win_example.py`, `rcb_other_example.py` |
+| Input/output | `personal_details.py`, `personal_details_extended.py`, `student_score.py` |
 
-## Run
+## Run examples
 
 Requires Python 3.
 
 ```bash
 python datatype.py
 python operators.py
-python "if else comparator.py"
-python "if else exesise.py"
+python compare_numbers.py
+python marks_pass_fail.py
+python product_sum_ratio.py
 ```
 
-Most examples use console input. Read the prompt, enter a value, and follow the output.
+Input-based examples prompt you in the terminal.
 
 ## Validation
 
@@ -32,6 +35,6 @@ Most examples use console input. Read the prompt, enter a value, and follow the 
 python -m compileall -q .
 ```
 
-The CI workflow checks Python syntax on pushes and pull requests.
+The GitHub Actions workflow checks syntax on pushes and pull requests. The examples remain small standalone scripts.
 
 **Madhumitha M** · B.E. CSE (AI & ML), 2028
