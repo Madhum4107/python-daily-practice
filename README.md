@@ -19,6 +19,7 @@ Requires Python 3.
 
 ```bash
 python datatype.py
+python operators.py
 python "if else comparator.py"
 python "if else exesise.py"
 ```
@@ -28,9 +29,9 @@ Most examples use console input. Read the prompt, enter a value, and follow the 
 ## Validation
 
 ```bash
-python -m compileall -q .\n\nAvoid naming files after Python standard-library modules (for example `operator.py`) because they can shadow imports and break the interpreter.
+python -m compileall -q .
 ```
 
-The CI workflow checks Python syntax on pushes and pull requests. The exercises are learning snippets and have not all been converted into reusable modules yet.
+The CI workflow checks Python syntax on pushes and pull requests.
 
 **Madhumitha M** · B.E. CSE (AI & ML), 2028
