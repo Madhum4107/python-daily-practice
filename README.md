@@ -1,40 +1,44 @@
 # Python Fundamentals — Practice Log
 
-A beginner repository documenting variables, data types, arithmetic, conditional logic, and input/output exercises.
-
-> Learning exercises—not portfolio showcase projects. The code is intentionally small and focuses on fundamentals.
+A beginner learning repository with small, runnable examples grouped by topic. The code focuses on Python basics, simple conditionals, input/output, and arithmetic.
 
 ## Topics
 
-| Topic | Files |
-|---|---|
-| Variables & data types | `variable.py`, `datatype.py` |
-| Arithmetic | `operators.py`, `product_sum_ratio.py` |
-| If/else basics | `if_else_basic.py`, `if_else.py` |
-| Comparisons & validation | `compare_numbers.py`, `marks_pass_fail.py` |
-| String conditions | `status_example.py`, `rcb_win_example.py`, `rcb_other_example.py` |
-| Input/output | `personal_details.py`, `personal_details_extended.py`, `student_score.py` |
+- **Basics:** variables, data types, operators
+- **Conditionals:** if/else, comparisons, pass/fail, string conditions
+- **Exercises:** personal details, arithmetic, score conversion
 
 ## Run examples
 
-Requires Python 3.
+From the repository root:
 
 ```bash
-python datatype.py
-python operators.py
-python compare_numbers.py
-python marks_pass_fail.py
-python product_sum_ratio.py
+python basics/variables.py
+python basics/data_types.py
+python basics/operators.py
+python conditionals/compare_numbers.py
+python conditionals/marks_pass_fail.py
+python exercises/product_sum_ratio.py
 ```
 
-Input-based examples prompt you in the terminal.
+## Tests and syntax checks
 
-## Validation
+Requires Python 3.9+; no external dependencies.
 
 ```bash
+python -m unittest discover -v
 python -m compileall -q .
 ```
 
-The GitHub Actions workflow checks syntax on pushes and pull requests. The examples remain small standalone scripts.
+## Structure
+
+```text
+basics/
+conditionals/
+exercises/
+test_practice.py
+```
+
+This is intentionally a learning log. More advanced portfolio projects are maintained in separate repositories.
 
 **Madhumitha M** · B.E. CSE (AI & ML), 2028
